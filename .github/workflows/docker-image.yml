@@ -28,8 +28,8 @@ jobs:
         echo "Fin del login"
         
     - name: Build the Docker image
-      run: docker build -t jalbertomd/graphql:0.0.2 .
+      run: docker build -t jalbertomd/docker-graphql:0.0.2 .
       
     - name: Push Docker image
       run: 
-        docker push jalbertomd/graphql:0.0.2
+        docker push jalbertomd/docker-graphql:0.0.2
